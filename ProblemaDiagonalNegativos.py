@@ -9,9 +9,7 @@ for i in range(0, N, 1):
 print("DIAGONAL PRINCIPAL:")
 for i in range(0, N, 1):
     print(f"{mat[i][i]} ", end="")
-
 print()
-
 negativos = 0
 for i in range(0, N, 1):
     for j in range(0, N, 1):
